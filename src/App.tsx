@@ -7,6 +7,9 @@ import Game_icon from './components/game_icon'
 function App() {
   
   const [count, setCount] = useState(0)
+  
+  let set_name: string = "fish";
+  
 
   return (
     <>
@@ -30,9 +33,12 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+
+   
       
       
-      <Game_icon/>
+      <Game_icon name = {set_name} gameicon = {set_name}/> 
     </>
 
    

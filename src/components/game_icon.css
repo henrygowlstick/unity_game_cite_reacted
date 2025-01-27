@@ -1,5 +1,7 @@
-.barry{
-    color: aqua;
-    size: 9in;
-    background-image: image( "https://ac.blooket.com/marketassets/blooks/milk.svg");
+.game_icon{
+
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
